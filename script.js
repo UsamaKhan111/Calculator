@@ -40,7 +40,6 @@ function check(button) {
         if (operator == "") {
             operator = button;
             inputString.value += button;
-            //console.log(operator);
         }
         else {
             if (secondNum !== "") {
