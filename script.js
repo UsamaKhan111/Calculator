@@ -93,7 +93,7 @@ const evaluate = (fNum, operator, sNum) => {
     }
     else if (operator == '/') {
         if (second == 0) {
-            alert("Nice try nigga")
+            alert("Can't divide with zero");
         }
         else {
             result = first / second;
